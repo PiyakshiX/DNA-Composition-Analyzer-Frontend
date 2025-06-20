@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DNA Composition Analyzer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>DNA Composition Analyzer</h1>
+    <nav>
+      <a href="#Genomic Skew">Genomic Skew</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="Genomic Skew">
+      <h2>Genomic Skew</h2>
+      <p>
+        In equilibrium conditions (without mutational or selective pressure and with nucleotides randomly distributed within the genome)
+        there is an equal frequency of the four DNA bases (adenine, guanine, thymine, and cytosine) on both single strands of a DNA molecule.
+        However, in most bacteria (e.g. E. coli) and some archaea (e.g. Sulfolobus solfataricus), nucleotide compositions are asymmetric between the leading strand and the lagging strand:
+        the leading strand contains more guanine (G) and thymine (T), whereas the lagging strand contains more adenine (A) and cytosine (C).<br><br>
+        This phenomenon is referred to as GC and AT skew and the corresponding statistics were defined as:<br><br>
+        GC skew = (G - C) / (G + C)<br>
+        AT skew = (A − T) / (A + T)<br>
+      </p><br>
+
+      <p><strong>Select and upload your DNA sequence file below:</strong></p>
+      <input type="file" id="dnaFile" />
+      <button onclick="analyzeDNA()">Analyze</button>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>If you have questions or feedback, you can reach us via:</p>
+      <ul>
+        <li>gmail: <a href="piyakshisaikia@gmail.com">piyakshisaikia@gmail.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/piyakshi-saikia-25b69531a" target="_blank">yourlinkedinprofile</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 DNA Analyzer. All rights reserved. |
+      <a href="mailto:piyakshisaikia@gmail.com" class="email-link">piyakshisaikia@gmail.com</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+
+</html>

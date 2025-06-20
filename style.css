@@ -1,0 +1,118 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f2f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #4a90e2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Sections */
+section {
+  background: #fff;
+  padding: 24px 36px;
+  margin-bottom: 30px;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e3e7ee;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+section:hover {
+  box-shadow: 0 8px 24px rgba(74, 144, 226, 0.12);
+  transform: translateY(-2px) scale(1.01);
+}
+
+section h2, section h3 {
+  color: #4a90e2;
+  margin-bottom: 15px;
+}
+
+/* File Upload */
+input[type="file"] {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+button {
+  background: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #357ab8;
+}
+
+/* Graph Styles */
+canvas {
+  width: 100% !important;
+  height: auto !important;
+  margin-top: 20px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* DNA Sequence Title */
+.dna-title {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #4a90e2;
+  margin: 30px 0 10px 0;
+}
+
+/* Footer */
+footer {
+  background: #4a90e2;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.email-link {
+  color: white;
+  text-decoration: underline;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DNA Skew Graphs</title>
+  <link rel="stylesheet" href="graph-style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id="dnaTitle" class="dna-title">DNA Sequence</h1>
+
+    <section>
+      <h2>AT Skew</h2>
+      <canvas id="atSkewChart"></canvas>
+      <div id="atStats" class="stats"></div>
+    </section>
+
+    <section>
+      <h2>GC Skew</h2>
+      <canvas id="gcSkewChart"></canvas>
+      <div id="gcStats" class="stats"></div>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="graph-script.js"></script>
+</body>
+</html>
